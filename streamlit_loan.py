@@ -59,7 +59,7 @@ def main():
     
     if st.button("Predict"): 
         result = prediction(Gender, Married, ApplicantIncome, LoanAmount, Credit_History) 
-        st.success('Your loan is {}'.format(result))
+        st.success('Your are {}'.format(result))
         
      
 if __name__=='__main__': 
